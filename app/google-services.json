@@ -1,0 +1,46 @@
+{
+  "project_info": {
+    "project_number": "462837158343",
+    "project_id": "test-bc66a",
+    "storage_bucket": "test-bc66a.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:462837158343:android:9b8c08fa58484e3ad989e2",
+        "android_client_info": {
+          "package_name": "com.vnpttech.demo"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "462837158343-f7fk3jpuhgpcprau6b0gcqufdcm2nqu6.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyC5i0Y0UTqqycCvNR17iAy2dVI5-pbMSg4"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "462837158343-f7fk3jpuhgpcprau6b0gcqufdcm2nqu6.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "462837158343-5g7ht90v3j45c9rhq0fc2m4dlefirt6e.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.anhquan.firebasetest.firebaseTest"
+              }
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
