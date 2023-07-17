@@ -72,10 +72,12 @@ class ChatViewModel(private val container: AppContainer) : ViewModel() {
     }
 
     suspend fun onSend() {
-        container.messages.sendMessage(
-            conversationID = conversation!!.id, message = messageContent
-        )
-        messageContent = ""
+        if (messageContent.trim().isNotEmpty()) {
+            container.messages.sendMessage(
+                conversationID = conversation!!.id, message = messageContent.trim()
+            )
+            messageContent = ""
+        }
     }
 
     suspend fun onBack() {
