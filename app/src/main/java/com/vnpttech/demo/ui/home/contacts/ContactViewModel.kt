@@ -112,6 +112,14 @@ class ContactViewModel(private val container: AppContainer) : ViewModel() {
         }
     }
 
+    fun onLeavingAddContactScreen() {
+        emailField = ""
+        messageField = ""
+        _uiState.update {
+            it.copy(addContactStatus = AddContactStatus.None)
+        }
+    }
+
     fun onEmailChange(value: String) {
         emailField = value.trim()
         _uiState.update {
