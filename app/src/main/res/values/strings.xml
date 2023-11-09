@@ -1,5 +1,5 @@
 <resources>
-    <string name="app_name">Demo Internship</string>
+    <string name="app_name">Conversate</string>
     <string name="welcome_text">A demo chat application.</string>
     <string name="signin_google">Sign in with Google</string>
     <string name="contact_title">Contacts</string>
